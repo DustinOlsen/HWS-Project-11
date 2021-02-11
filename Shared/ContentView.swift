@@ -8,7 +8,13 @@
 import SwiftUI
 import CoreData
 
+
+
+
 struct ContentView: View {
+    
+    @State private var rememberMe = false
+    
     @Environment(\.managedObjectContext) private var viewContext
 
     @FetchRequest(
@@ -17,6 +23,8 @@ struct ContentView: View {
     private var items: FetchedResults<Item>
 
     var body: some View {
+        
+        
         List {
             ForEach(items) { item in
                 Text("Item at \(item.timestamp!, formatter: itemFormatter)")
