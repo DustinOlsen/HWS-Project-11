@@ -21,6 +21,8 @@
 		BBDF5CA525D70F65007ED7DE /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDF5CA325D70F65007ED7DE /* AddBookView.swift */; };
 		BBDF5CA925D72C55007ED7DE /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDF5CA825D72C55007ED7DE /* RatingView.swift */; };
 		BBDF5CAA25D72C55007ED7DE /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDF5CA825D72C55007ED7DE /* RatingView.swift */; };
+		BBDF5CAE25D7319A007ED7DE /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDF5CAD25D7319A007ED7DE /* EmojiRatingView.swift */; };
+		BBDF5CAF25D7319A007ED7DE /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDF5CAD25D7319A007ED7DE /* EmojiRatingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,7 @@
 		BB22761C25D59A44005D16F6 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		BBDF5CA325D70F65007ED7DE /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
 		BBDF5CA825D72C55007ED7DE /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		BBDF5CAD25D7319A007ED7DE /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +74,7 @@
 			children = (
 				BB22760925D59A43005D16F6 /* HWS_Project_11App.swift */,
 				BB22760A25D59A43005D16F6 /* ContentView.swift */,
+				BBDF5CAD25D7319A007ED7DE /* EmojiRatingView.swift */,
 				BBDF5CA325D70F65007ED7DE /* AddBookView.swift */,
 				BBDF5CA825D72C55007ED7DE /* RatingView.swift */,
 				BB22760B25D59A43005D16F6 /* Persistence.swift */,
@@ -205,6 +209,7 @@
 			files = (
 				BB22761F25D59A44005D16F6 /* HWS_Project_11App.swift in Sources */,
 				BB22762325D59A44005D16F6 /* Persistence.swift in Sources */,
+				BBDF5CAE25D7319A007ED7DE /* EmojiRatingView.swift in Sources */,
 				BB22761D25D59A44005D16F6 /* HWS_Project_11.xcdatamodeld in Sources */,
 				BBDF5CA925D72C55007ED7DE /* RatingView.swift in Sources */,
 				BB22762125D59A44005D16F6 /* ContentView.swift in Sources */,
@@ -218,6 +223,7 @@
 			files = (
 				BB22762025D59A44005D16F6 /* HWS_Project_11App.swift in Sources */,
 				BB22762425D59A44005D16F6 /* Persistence.swift in Sources */,
+				BBDF5CAF25D7319A007ED7DE /* EmojiRatingView.swift in Sources */,
 				BB22761E25D59A44005D16F6 /* HWS_Project_11.xcdatamodeld in Sources */,
 				BBDF5CAA25D72C55007ED7DE /* RatingView.swift in Sources */,
 				BB22762225D59A44005D16F6 /* ContentView.swift in Sources */,
