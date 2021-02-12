@@ -19,6 +19,8 @@
 		BB22762625D59A44005D16F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB22760C25D59A44005D16F6 /* Assets.xcassets */; };
 		BBDF5CA425D70F65007ED7DE /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDF5CA325D70F65007ED7DE /* AddBookView.swift */; };
 		BBDF5CA525D70F65007ED7DE /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDF5CA325D70F65007ED7DE /* AddBookView.swift */; };
+		BBDF5CA925D72C55007ED7DE /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDF5CA825D72C55007ED7DE /* RatingView.swift */; };
+		BBDF5CAA25D72C55007ED7DE /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDF5CA825D72C55007ED7DE /* RatingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,7 @@
 		BB22761B25D59A44005D16F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB22761C25D59A44005D16F6 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		BBDF5CA325D70F65007ED7DE /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
+		BBDF5CA825D72C55007ED7DE /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +72,7 @@
 				BB22760925D59A43005D16F6 /* HWS_Project_11App.swift */,
 				BB22760A25D59A43005D16F6 /* ContentView.swift */,
 				BBDF5CA325D70F65007ED7DE /* AddBookView.swift */,
+				BBDF5CA825D72C55007ED7DE /* RatingView.swift */,
 				BB22760B25D59A43005D16F6 /* Persistence.swift */,
 				BB22760C25D59A44005D16F6 /* Assets.xcassets */,
 				BB22760725D59A43005D16F6 /* HWS_Project_11.xcdatamodeld */,
@@ -202,6 +206,7 @@
 				BB22761F25D59A44005D16F6 /* HWS_Project_11App.swift in Sources */,
 				BB22762325D59A44005D16F6 /* Persistence.swift in Sources */,
 				BB22761D25D59A44005D16F6 /* HWS_Project_11.xcdatamodeld in Sources */,
+				BBDF5CA925D72C55007ED7DE /* RatingView.swift in Sources */,
 				BB22762125D59A44005D16F6 /* ContentView.swift in Sources */,
 				BBDF5CA425D70F65007ED7DE /* AddBookView.swift in Sources */,
 			);
@@ -214,6 +219,7 @@
 				BB22762025D59A44005D16F6 /* HWS_Project_11App.swift in Sources */,
 				BB22762425D59A44005D16F6 /* Persistence.swift in Sources */,
 				BB22761E25D59A44005D16F6 /* HWS_Project_11.xcdatamodeld in Sources */,
+				BBDF5CAA25D72C55007ED7DE /* RatingView.swift in Sources */,
 				BB22762225D59A44005D16F6 /* ContentView.swift in Sources */,
 				BBDF5CA525D70F65007ED7DE /* AddBookView.swift in Sources */,
 			);
