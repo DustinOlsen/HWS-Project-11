@@ -23,6 +23,8 @@
 		BBDF5CAA25D72C55007ED7DE /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDF5CA825D72C55007ED7DE /* RatingView.swift */; };
 		BBDF5CAE25D7319A007ED7DE /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDF5CAD25D7319A007ED7DE /* EmojiRatingView.swift */; };
 		BBDF5CAF25D7319A007ED7DE /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDF5CAD25D7319A007ED7DE /* EmojiRatingView.swift */; };
+		BBE803BF25DAD0E5009C337B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE803BE25DAD0E5009C337B /* DetailView.swift */; };
+		BBE803C025DAD0E5009C337B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE803BE25DAD0E5009C337B /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,7 @@
 		BBDF5CA325D70F65007ED7DE /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
 		BBDF5CA825D72C55007ED7DE /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		BBDF5CAD25D7319A007ED7DE /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
+		BBE803BE25DAD0E5009C337B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,7 @@
 				BBDF5CA325D70F65007ED7DE /* AddBookView.swift */,
 				BBDF5CA825D72C55007ED7DE /* RatingView.swift */,
 				BB22760B25D59A43005D16F6 /* Persistence.swift */,
+				BBE803BE25DAD0E5009C337B /* DetailView.swift */,
 				BB22760C25D59A44005D16F6 /* Assets.xcassets */,
 				BB22760725D59A43005D16F6 /* HWS_Project_11.xcdatamodeld */,
 			);
@@ -208,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB22761F25D59A44005D16F6 /* HWS_Project_11App.swift in Sources */,
+				BBE803BF25DAD0E5009C337B /* DetailView.swift in Sources */,
 				BB22762325D59A44005D16F6 /* Persistence.swift in Sources */,
 				BBDF5CAE25D7319A007ED7DE /* EmojiRatingView.swift in Sources */,
 				BB22761D25D59A44005D16F6 /* HWS_Project_11.xcdatamodeld in Sources */,
@@ -222,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB22762025D59A44005D16F6 /* HWS_Project_11App.swift in Sources */,
+				BBE803C025DAD0E5009C337B /* DetailView.swift in Sources */,
 				BB22762425D59A44005D16F6 /* Persistence.swift in Sources */,
 				BBDF5CAF25D7319A007ED7DE /* EmojiRatingView.swift in Sources */,
 				BB22761E25D59A44005D16F6 /* HWS_Project_11.xcdatamodeld in Sources */,
