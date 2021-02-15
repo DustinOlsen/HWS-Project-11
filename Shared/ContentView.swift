@@ -18,6 +18,21 @@ struct ContentView: View {
         NSSortDescriptor(keyPath: \Book.title, ascending: true),
         NSSortDescriptor(keyPath: \Book.author, ascending: true)
     ]) var books: FetchedResults<Book>
+    
+    
+    func deleteBook(at offsets: IndexSet) {
+        for offset in offsets {
+        // find this book in our fetch request
+        let book = books[offset]
+        
+        // delete it from the context
+        moc.delete(book)
+        }
+        
+        // save the context
+        try? moc.save()
+    
+    }
 
     @State private var showingAddBook = false
     
@@ -37,9 +52,10 @@ struct ContentView: View {
                         }
                     }
                 }
+                .onDelete(perform: deleteBook)
             }
                 .navigationBarTitle("Bookworm")
-                .navigationBarItems(trailing: Button(action: {
+            .navigationBarItems(leading: EditButton(), trailing: Button(action: {
                     self.showingAddBook.toggle()
                 }) {
                     Image(systemName: "plus")
